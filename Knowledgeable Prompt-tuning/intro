@@ -1,0 +1,4 @@
+清华大学的提示学习paper:Knowledgeable Prompt-tuning:Incorporating Knowledge into Prompt Verbalizer for Text Classification
+主要是考虑到的言语者的角度所做的相关工作，感觉是教授怎么使用openprompt，
+任务是分类任务
+存在问题，在论文实验设置下，few-shot学习时，loss反向传播中，model 的参数好像并没有更新
